@@ -13,17 +13,17 @@ var fcolor = "#111111";
 
 // set comments background color
 function douban () {
-    document.body.style.background=bcolor; 
+    document.body.style.background = bcolor; 
     var lis = document.body.getElementsByClassName("clearfix comment-item");
     for (var i = lis.length - 1; i >= 0; i--) {
-        lis[i].style.background=bcolor;
+        lis[i].style.background = bcolor;
     }
-    var nav= document.body.getElementsByClassName("nav-wrap");
+    var nav = document.body.getElementsByClassName("nav-wrap");
     if (nav){
-        nav[0].style.background=bcolor;
+        nav[0].style.background = bcolor;
     }
     // 改变小组推荐的位置
-    article=document.getElementsByClassName("article");
+    article = document.getElementsByClassName("article");
     if (article) {
         article = article[0];
         gb=document.getElementsByClassName("group-board")[0];
@@ -45,11 +45,11 @@ if (hostname.indexOf('github.com') >= 0) {
     }
 }
 
-if (hostname.indexOf('douban.com') >= 0)  {
+if (hostname.indexOf('douban.com') >= 0) {
     douban();
 }
 
-if （hostname.indexOf('quora.com') >= 0）{
+if (hostname.indexOf('quora.com') >= 0) {
     document.body.style.background=bcolor; 
 }
 

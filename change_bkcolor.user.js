@@ -126,7 +126,7 @@ function vavava_init() {
 }
 
 function vavava_hotkey (event) {
-  if (event.keyCode == 192) {
+  if (event.keyCode == 49) {
     var vavava = $('vavava');
     if (vavava == null) {
       vavava_init();
