@@ -3,7 +3,7 @@
 // @namespace   https://github.com/pkhopper/gmScripts/raw/master/change_bkcolor.user.js
 // @description 修改背景颜色为柔和，增加快捷键为｀，拖拽时根据鼠标位置改变背景颜色 ＝＝
 // @include     *
-// @version     0.1.0
+// @version     0.1.1
 // @grant       none
 // ==/UserScript==
 
@@ -117,10 +117,7 @@ function vavava_init() {
   var bt = document.body.appendChild(document.createElement('div'));
     bt.setAttribute(
       'style', 
-      'width: 20px; height: 20px; top: 208px; 
-      left: 232; z-index: 60000; position: fixed; color: black; background: 
-      #E8D098; border: 1px solid black; text-align: center; vertical-align: middle; 
-      font-size: 9pt; cursor: pointer;'
+      'width: 20px; height: 20px; top: 208px; left: 232; z-index: 60000; position: fixed; color: black; background: #E8D098; border: 1px solid black; text-align: center; vertical-align: middle;font-size: 9pt; cursor: pointer;'
       );
   bt.innerHTML = document.body.style.background;
   bt.id = "vavava";
