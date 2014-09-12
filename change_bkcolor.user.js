@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name        change_bkcolor
-// @namespace   http://github.com/pkhopper/gmScripts/change_bkcolor.user.js
+// @namespace   https://github.com/pkhopper/gmScripts/raw/master/change_bkcolor.user.js
 // @description 修改背景颜色为柔和，增加快捷键为｀，拖拽时根据鼠标位置改变背景颜色 ＝＝
 // @include     *
 // @version     0.1.0

@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name        douban
-// @namespace   http://github.com/pkhopper/gmScripts/douban.user.js
+// @namespace   https://github.com/pkhopper/gmScripts/raw/master/douban.user.js
 // @include     http://*.douban.com/*
 // @include     https://github.com/*
 // @grant       none
