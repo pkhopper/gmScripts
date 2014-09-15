@@ -7,8 +7,6 @@
 // @grant       none
 // ==/UserScript==
 
-
-
 var isIE = (document.all) ? true : false;
 
 function Hex(i) {
@@ -22,9 +20,12 @@ function console_info(info) {
   window.console && window.console.info(info);
 }
 
-var $ = function (id) {
-	return "string" == typeof id ? document.getElementById(id) : id;
-};
+if ($ == null) {
+  $ = function (id) {
+  return "string" == typeof id ? document.getElementById(id) : id;
+  };
+}
+  
 
 var Class = {
 	create: function() {
@@ -126,6 +127,7 @@ function vavava_init() {
 }
 
 function vavava_hotkey (event) {
+  console.log('nononon')
   if (event.keyCode == 49) {
     var vavava = $('vavava');
     if (vavava == null) {
