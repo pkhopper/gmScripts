@@ -12,7 +12,7 @@ function douban () {
     
     // 改变页面元素颜色
     document.body.style.background=bcolor; 
-    var comment_items = $(".clearfix comment-item");
+    var comment_items = document.getElementsByClassName('clearfix comment-item');
     if ( comment_items ){
         for (i=0; i < comment_items.length; i++) {
             comment_items[i].style.background=bcolor;
