@@ -3,7 +3,7 @@
 // @namespace   https://github.com/pkhopper/gmScripts/raw/master/change_bkcolor.user.js
 // @description 快捷键:F10，弹出小窗口，拖拽窗口，通过窗口位置改变背景颜色 ＝＝
 // @include     *
-// @version     0.1.1
+// @version     0.1.2
 // @grant       none
 // ==/UserScript==
 
